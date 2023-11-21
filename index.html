@@ -34,18 +34,18 @@
                     <div class="center"></div>
                 </div>
                 <div>
-                    <a href="mailto: leandro.felix.ar@gmail.com" class="mail">
+                    <a href="mailto: leandro.felix.ar@gmail.com" class="mail" id="mail">
                         <i class="far fa-envelope"></i>
                     </a>
                 </div>
                 <div class="main">
-                    <div class="image">
+                    <div class="image" id="profile">
                         <div class="hover">
                             <i class="fas fa-camera fa-2x"></i>
                         </div>
                     </div>
-                    <h3 class="name">Shahzaib Fardeen .G</h3>
-                    <h3 class="sub-name">@Shazz</h3>
+                    <h3 class="name" id="name">Shahzaib Fardeen .G</h3>
+                    <h3 class="sub-name" id="login">@Shazz</h3>
                 </div>
             </div>
             
@@ -53,60 +53,33 @@
                 <div class="left">
                     <div class="about-container">
                         <h3 class="title">About Me!</h3>
-                        <p class="text">Multi Stack Developer | Assoc EDC Programmer | Software Engineer | Designer | Community Builder |</p>
+                        <p class="text" id="bio">Multi Stack Developer | Assoc EDC Programmer | Software Engineer | Designer | Community Builder |</p>
                     </div>
                     <div class="icons-container">
                         
-                        <a href="https://www.linkedin.com/in/shahzaib-fardeen/" target="_blank" class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        
-                        <a href="https://github.com/Shahzaibfardeen" target="_blank" class="icon">
+                        <a href="https://github.com/Shahzaibfardeen" target="_blank" class="icon" id="icon">
                             <i class="fab fa-github"></i>
-                        </a>
-                        
-                        <a href="https://twitter.com/shahzaibfardeen" target="_blank" class="icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        
-                        <a href="https://www.instagram.com/shahzaib_fardeen/" target="_blank" class="icon">
-                            <i class="fab fa-instagram"></i>    
-                        </a>                      
-                        
-                        <a href="https://www.facebook.com/shahzaib.fardeen/" target="_blank" class="icon">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        
-                        <a href="https://hashnode.com/@Shahzaibfardeen" target="_blank" class="icon">
-                            <i class="fa fa-rss-square" aria-hidden="true"></i>
-                        </a>
-                        
-                        <a href="https://www.polywork.com/shahzaibfardeen" target="_blank" class="icon">
-                            <i class="fa fa-braille"></i>
                         </a>
                         
                     </div>
                     <div class="buttons-wrap">
                         <div class="follow-wrap">
-                            <a href="https://www.instagram.com/shahzaib_fardeen/" target="_blank" class="follow">Follow</a>
-                        </div>
-                        <div class="share-wrap">
-                            <a href="https://github.com/Shahzaibfardeen/My_Profile_Card" target="_blank" class="share">Fork</a>
+                            <a href="https://www.instagram.com/shahzaib_fardeen/" target="_blank" class="follow" id="follow">Follow</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="right">
                     <div>
-                        <h3 class="number">27</h3>
-                        <h3 class="number-title">Posts</h3>
+                        <h3 class="number" id="repos">27</h3>
+                        <h3 class="number-title">Repositories</h3>
                     </div>
                     <div>
-                        <h3 class="number">520</h3>
+                        <h3 class="number" id="following">520</h3>
                         <h3 class="number-title">Following</h3>
                     </div>
                     <div>
-                        <h3 class="number">1.4K</h3>
+                        <h3 class="number" id="followers">1.4K</h3>
                         <h3 class="number-title">Followers</h3>
                     </div>
                 </div>
@@ -114,18 +87,6 @@
         </div>
     </div>
     
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            let sendButton = document.querySelector('#search-send');
-
-            const handleCardRender = () => {
-                const input = document.getElementById('search-input');
-                console.log(input.value);
-                input.value = ''
-            };
-
-            sendButton.addEventListener("click", handleCardRender);
-        });
-    </script>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>

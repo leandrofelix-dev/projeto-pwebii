@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error('Erro na requisição:', error)
+            alert('perfil não encontrado')
         })
 
     input.value = ''
